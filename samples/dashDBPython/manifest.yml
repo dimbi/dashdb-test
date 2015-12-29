@@ -1,0 +1,9 @@
+---
+applications:
+# replace the host variable below with your own unique one, as this one can be already taken
+- name: dashdbpython
+  memory: 256M
+  instances: 1
+  host: dashdbpython1
+  path: .
+  command: python ./dashdbpython.py

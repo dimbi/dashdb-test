@@ -1,0 +1,9 @@
+---
+applications:
+- name: dashdbscala-play
+  memory: 256M
+  instances: 1
+  path: target/universal/dashdbscala-play-1.0-SNAPSHOT.zip
+  random-route: true
+  services:
+   - dashDB-hq

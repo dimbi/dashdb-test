@@ -1,0 +1,14 @@
+{
+    "engines": { "node": "0.10.33" },
+    "name": "dashdbnodesample",
+    "version": "0.0.1",
+    "description": "A sample node app",
+    "dependencies" : {
+      "ibm_db": "0.0.6",
+      "express": "3.x",
+	  "jade": "x"
+    },
+    "scripts": {
+       "start": "node app.js"
+	}
+}
